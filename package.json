@@ -1,0 +1,27 @@
+{
+    "name": "ct239",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./src/assets/main.js",
+    "scripts": {
+        "build": "tailwindcss build -i src/layout/css/style.css -o public/style.css",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "electron ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/NganHuynh300603/ct239.git"
+    },
+    "author": "NganHuynh",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/NganHuynh300603/ct239/issues"
+    },
+    "homepage": "https://github.com/NganHuynh300603/ct239#readme",
+    "devDependencies": {
+        "electron": "^18.0.0"
+    },
+    "dependencies": {
+        "tailwindcss": "^3.0.23"
+    }
+}
